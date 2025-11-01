@@ -2,6 +2,14 @@
 
 Proyek Machine Learning untuk mengklasifikasikan jenis kelamin berdasarkan nama orang Indonesia menggunakan algoritma Logistic Regression, Naive Bayes, dan Random Forest.
 
+List of contents:
+- Dataset
+- Metod Klasifikasi
+- Quick Start
+- Contoh Penggunaan
+- Struktur Project
+- Laporan
+
 ## 📊 Dataset
 
 Dataset berasal dari data pemilih tetap KPU yang berisi 13.137 nama dengan label jenis kelamin. Dataset tersedia di [`data/data-pemilih-kpu.csv`](./data/data-pemilih-kpu.csv).
