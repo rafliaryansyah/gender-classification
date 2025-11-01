@@ -301,23 +301,47 @@ Laki-Laki          122     1727
 
 ### 4.3 Visualisasi Hasil
 
-#### 4.3.1 Confusion Matrix
-
-![Confusion Matrix - Logistic Regression](./visualizations/confusion_matrix_lr.png)
-
-*Gambar 4.1: Confusion Matrix menunjukkan distribusi prediksi yang benar dan salah*
-
-#### 4.3.2 Perbandingan Akurasi
-
-![Perbandingan Akurasi](./visualizations/accuracy_comparison.png)
-
-*Gambar 4.2: Perbandingan akurasi ketiga algoritma*
-
-#### 4.3.3 Distribusi Dataset
+#### 4.3.1 Distribusi Dataset
 
 ![Distribusi Dataset](./visualizations/data_distribution.png)
 
-*Gambar 4.3: Distribusi jenis kelamin dalam dataset*
+*Gambar 4.1: Distribusi jenis kelamin dalam dataset menunjukkan balance yang baik (47.58% laki-laki vs 52.42% perempuan)*
+
+#### 4.3.2 Confusion Matrix - Logistic Regression
+
+![Confusion Matrix - Logistic Regression](./visualizations/confusion_matrix_lr.png)
+
+*Gambar 4.2: Confusion Matrix Logistic Regression menunjukkan 1,912 prediksi perempuan benar dan 1,727 prediksi laki-laki benar*
+
+#### 4.3.3 Confusion Matrix - Naive Bayes
+
+![Confusion Matrix - Naive Bayes](./visualizations/confusion_matrix_nb.png)
+
+*Gambar 4.3: Confusion Matrix Naive Bayes dengan performa yang mirip dengan Logistic Regression*
+
+#### 4.3.4 Confusion Matrix - Random Forest
+
+![Confusion Matrix - Random Forest](./visualizations/confusion_matrix_rf.png)
+
+*Gambar 4.4: Confusion Matrix Random Forest menunjukkan error yang sedikit lebih tinggi*
+
+#### 4.3.5 Perbandingan Akurasi
+
+![Perbandingan Akurasi](./visualizations/accuracy_comparison.png)
+
+*Gambar 4.5: Perbandingan akurasi ketiga algoritma, Logistic Regression unggul dengan 93.62%*
+
+#### 4.3.6 Perbandingan Metrik Performa
+
+![Performance Metrics](./visualizations/performance_metrics.png)
+
+*Gambar 4.6: Perbandingan Precision, Recall, dan F1-Score dari ketiga model*
+
+#### 4.3.7 Training vs Testing Accuracy
+
+![Train vs Test](./visualizations/train_vs_test_accuracy.png)
+
+*Gambar 4.7: Perbandingan akurasi training dan testing menunjukkan Random Forest mengalami overfitting paling tinggi*
 
 ### 4.4 Testing Prediksi
 
